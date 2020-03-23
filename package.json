@@ -1,0 +1,19 @@
+{
+  "name": "the-honest-painting-co",
+  "version": "1.0.0",
+  "description": "My grand Nuxt.js project",
+  "author": "Cameron LaVallie",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
