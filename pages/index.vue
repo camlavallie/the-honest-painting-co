@@ -1,12 +1,12 @@
 <template>
   <div>
     <Nav/>
-     <div class="m-12">
-         <JumboHomeTwo/>
-     </div>
-      <div class="m-12">
+      <div class="">
        <JumboHome/>
       </div>
+     <div class="">
+         <JumboHomeTwo/>
+     </div>
   </div>
 </template>
 

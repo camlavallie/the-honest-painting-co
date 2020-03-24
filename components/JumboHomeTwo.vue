@@ -14,7 +14,7 @@
             <br class="xl:hidden" />
             <span class="text-red-600">Contact us today!</span>
           </h2>
-           <div class="sm:text-left mt-12">
+           <div class="sm:text-left mt-12 lg:w-11/12">
            <ContactForm/>
            </div>
         </div>
@@ -29,7 +29,6 @@
   </div>
 </div>
 </template>
-
 
 <script>
 import ContactForm from './ContactForm.vue'

@@ -8,7 +8,7 @@
       </nuxt-link>
     </div>
       <nuxt-link to="/">
-    <div class="text-xl text-red-600 sm:p-0">The Honest Painter CO.</div>
+    <div class="text-xl lg:text-4xl text-red-600 sm:p-0">The Honest Painter CO.</div>
     
       </nuxt-link>
     <div class="sm:hidden">
