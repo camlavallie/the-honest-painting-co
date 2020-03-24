@@ -1,21 +1,26 @@
 <template>
   <div>
     <Nav/>
-    <JumboHome/>
-
+     <div class="m-12">
+         <JumboHomeTwo/>
+     </div>
+      <div class="m-12">
+       <JumboHome/>
+      </div>
   </div>
 </template>
 
 <script>
 import Nav from '~/components/Nav.vue'
 import JumboHome from '~/components/JumboHome.vue'
-// import ContactForm from '~/components/ContactForm.vue'
+import JumboHomeTwo from '~/components/JumboHomeTwo.vue'
+
 
 export default {
   components: {
     Nav,
+    JumboHomeTwo,
     JumboHome,
-    // ContactForm
   }
 }
 </script>
