@@ -3,11 +3,14 @@
     <Nav/>
       <div class="">
        <JumboHome/>
-       
       </div>
+
       <div class="mt-12"></div>
      <div class="">
          <JumboHomeTwo/>
+     </div>
+     <div class="mt-12">
+         <Carousel/>
      </div>
      <div class="">
          <Footer />
@@ -19,6 +22,7 @@
 import Nav from '~/components/Nav.vue'
 import JumboHome from '~/components/JumboHome.vue'
 import JumboHomeTwo from '~/components/JumboHomeTwo.vue'
+import Carousel from '~/components/Carousel.vue'
 import Footer from '~/components/Footer.vue'
 
 
@@ -28,6 +32,7 @@ export default {
     JumboHomeTwo,
     JumboHome,
     Footer,
+    Carousel,
   }
 }
 </script>
