@@ -62,7 +62,7 @@
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">You are important to us</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
-                You can expect excellence in everything we.
+                You can expect excellence in everything we do.
               </p>
             </div>
           </div>
@@ -71,16 +71,16 @@
           <div class="flex">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white">
-                <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
-                </svg>
+               <img class="w-6 h-6 text-white " src="../../assets/images/phone.png" alt="">
               </div>
             </div>
             <div class="ml-4">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">Mobile notifications</h5>
+              <h5 class="text-lg leading-6 font-medium text-gray-900">Contact Us Today</h5>
+              <a href="tel:+61451223787" >
               <p class="mt-2 text-base leading-6 text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+               +61 451  223 787
               </p>
+              </a>
             </div>
           </div>
         </li>
