@@ -12,7 +12,7 @@
       <span class="text-red-600"> All the time.</span>
       </h3>
       <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-        We specialise in interior or exterior painting, whether it be domestic or commercial, we will get the job done.
+        We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.
       </p>
     </div>
 
