@@ -10,13 +10,12 @@
       <span class="text-red-600"> All the time</span>
     </h2>
      <div class=" lg:ml-12 inline-flex  mt-8 flex lg:flex-shrink-0 lg:mt-0">
-      <div class="inline-flex rounded-md shadow">
+      <div class="inline-flex ">
         <a href="tel:+61451223787" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
         <img class="w-6 h-6 text-white mr-3" src="../assets/images/phone.png" alt="">
           Call Today!
         </a>
         <nuxt-link to="/about" class=" ml-3 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-        <!-- <img class="w-6 h-6 text-white mr-3" src="../assets/images/phone.png" alt=""> -->
           About Us
         </nuxt-link>
       </div>
