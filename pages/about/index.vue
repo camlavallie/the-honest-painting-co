@@ -7,7 +7,9 @@
     <div class="lg:text-center">
       <p class="text-base leading-6 text-red-600 font-semibold tracking-wide uppercase">We are for you</p>
       <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-      Honest and excellent work all the time 
+      Honest and excellent work. 
+       <br />
+      <span class="text-red-600"> All the time.</span>
       </h3>
       <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
         We specialise in interior or exterior painting, whether it be domestic or commercial, we will get the job done.

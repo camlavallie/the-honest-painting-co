@@ -5,7 +5,7 @@
         </div>
   <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex justify-center text-center">
     <h2 class="text-3xl lg:text-5xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-      Honest and excellent work
+      Honest and excellent work.
       <br />
       <span class="text-red-600"> All the time.</span>
     </h2>
