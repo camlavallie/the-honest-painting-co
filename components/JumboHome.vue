@@ -7,7 +7,7 @@
     <h2 class="text-3xl lg:text-5xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
       Honest and excellent work
       <br />
-      <span class="text-red-600"> All the time</span>
+      <span class="text-red-600"> All the time.</span>
     </h2>
      <div class=" lg:ml-12 inline-flex  mt-8 flex lg:flex-shrink-0 lg:mt-0">
       <div class="inline-flex ">
