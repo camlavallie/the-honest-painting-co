@@ -77,7 +77,7 @@
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">Contact Us Today</h5>
               <a href="tel:+61451223787" >
-              <p class="mt-2 text-base leading-6 text-gray-500">
+              <p class="mt-2 text-base leading-6 hover:text-blue-500 text-gray-500">
                +61 451  223 787
               </p>
               </a>
@@ -100,9 +100,6 @@ export default {
   components:{
     Nav,
     Footer
-
   }
 }
 </script>
-
-
