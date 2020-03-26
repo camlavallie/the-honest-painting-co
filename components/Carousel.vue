@@ -33,7 +33,7 @@
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Glen Iris, Victoria</div>
     <p class="text-gray-700 text-base">
-     Beautiful front deck and entrance! The fretwork was old and faded before painting but looks what a lot of prep work and a few coats of paint does!
+     Beautiful front deck and entrance! The fretwork was old and faded before painting but look what a lot of prep work and a few coats of paint can do!
     </p>
   </div>
   <!-- <div class="px-6 py-4">

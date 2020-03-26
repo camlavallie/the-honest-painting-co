@@ -45,7 +45,7 @@
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">No hidden fees</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
-               Contact us today for a free quote.
+               Call or message us today for your FREE quote. 
               </p>
             </div>
           </div>

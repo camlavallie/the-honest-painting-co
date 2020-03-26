@@ -15,9 +15,9 @@
         <img class="w-6 h-6 text-white mr-3" src="../assets/images/phone.png" alt="">
           Call Today!
         </a>
-        <nuxt-link to="/about" class=" ml-3 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+        <!-- <nuxt-link to="/about" class=" ml-3 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
           About Us
-        </nuxt-link>
+        </nuxt-link> -->
       </div>
     </div>
   </div>
