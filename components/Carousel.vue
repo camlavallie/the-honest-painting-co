@@ -42,5 +42,8 @@
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
   </div> -->
 </div>
+
+
+
 </div>
 </template>

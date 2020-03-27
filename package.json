@@ -1,7 +1,7 @@
 {
   "name": "the-honest-painting-co",
   "version": "1.0.0",
-  "description": "My grand Nuxt.js project",
+  "description": "The Honest Painting CO built with NuxtJS",
   "author": "Cameron LaVallie",
   "private": true,
   "scripts": {
