@@ -1,9 +1,8 @@
 <template>
 <div class="mt-12 mb-12">
-  <div class="justify-center">
   <header class="block bg-white sm:flex sm:items-center ">
   <div class="flex items-center ">
-    <div class="lg:w-32 md:w-32 w-32">
+    <div class="lg:w-48 md:w-32 w-24">
       <nuxt-link to="/">
       <img src="../assets/images/thehonestpaintingco.png" alt="">
       </nuxt-link>
@@ -38,8 +37,6 @@
 
 
   </header>
-
-  </div>
 </div>
 </template>
 
