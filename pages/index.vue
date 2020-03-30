@@ -15,7 +15,7 @@
      <div class="mt-12">
        <div class="text-center mb-24">
          <div>
-       <h5 class="text-6xl leading-6 font-medium text-gray-300">Featured Gallery</h5>
+       <h5 class="text-6xl leading-6 font-medium text-gray-300">Gallery</h5>
          </div>
        </div>
          <Carousel/>
