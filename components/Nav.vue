@@ -10,10 +10,10 @@
     
       <nuxt-link to="/">
     <div class="tracking-tight">
-      <span class="text-2xl lg:text-4xl md:text-2xl  font-bold text-black ">
+      <span class="text-2xl tracking-tight lg:text-5xl md:text-2xl  font-bold text-black ">
         The Honest 
       </span>
-      <span class="text-2xl lg:text-4xl md:text-2xl  text-black ">
+      <span class="text-2xl lg:text-5xl tracking-tight md:text-2xl  text-black ">
         Painting Co.
       </span>     
       </div>
