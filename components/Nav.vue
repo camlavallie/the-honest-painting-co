@@ -9,7 +9,7 @@
     </div>
     
       <nuxt-link to="/">
-    <div class="tracking-tight">
+    <div class="tracking-tight mr-12 ">
       <span class="text-2xl tracking-tight lg:text-5xl md:text-2xl  font-bold text-black ">
         The Honest 
       </span>
@@ -31,7 +31,6 @@
     </div>
     <nav :class="isOpen ? 'block': 'hidden' " class="text-gray-200 px-6 pt-2 pb-4 sm:flex sm:p-0">
        <router-link to="/" class="block px-2 py-1 font-medium text-gray-500 hover:text-red-600 hover:bg-gray-200 rounded-lg focus:outline-none focus:text-red-600 transition duration-150 ease-in-out">Home</router-link>
-      <!-- <router-link to="/about" disabled class="mt-1 block px-2 py-1 font-medium text-gray-500 hover:text-red-600 focus:outline-none focus:text-red-600 transition duration-150 ease-in-out sm:mt-0 sm:ml-2">About</router-link> -->
     </nav>
 
 
