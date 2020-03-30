@@ -9,7 +9,7 @@
     </div>
     
       <nuxt-link to="/">
-    <div class="tracking-tight mr-12 ">
+    <div class="tracking-tight  ">
       <span class="text-2xl tracking-tight lg:text-5xl md:text-2xl  font-bold text-black ">
         The Honest 
       </span>
@@ -21,7 +21,7 @@
 
     <div class="sm:hidden">
       <button @click="isOpen = !isOpen" type="button" class="text-gray-500 hover:text-red-600 focus:outline-none block">
-        <svg class="w-6 h-6 w-4 fill-current" viewBox="0 0 24 24">
+        <svg class="w-6 h-6 w-4  fill-current" viewBox="0 0 24 24">
           <path v-if="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
 
           <path v-if="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
@@ -31,6 +31,7 @@
     </div>
     <nav :class="isOpen ? 'block': 'hidden' " class="text-gray-200 px-6 pt-2 pb-4 sm:flex sm:p-0">
        <router-link to="/" class="block px-2 py-1 font-medium text-gray-500 hover:text-red-600 hover:bg-gray-200 rounded-lg focus:outline-none focus:text-red-600 transition duration-150 ease-in-out">Home</router-link>
+      <!-- <router-link to="/about" disabled class="mt-1 block px-2 py-1 font-medium text-gray-500 hover:text-red-600 focus:outline-none focus:text-red-600 transition duration-150 ease-in-out sm:mt-0 sm:ml-2">About</router-link> -->
     </nav>
 
 
