@@ -2,7 +2,7 @@
 <div>
   <header class="bg-white sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
   <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-    <div class="w-32">
+    <div class="lg:w-32 md:w-32 w-16">
       <nuxt-link to="/">
       <img src="../assets/images/thehonestpaintingco.png" alt="">
       </nuxt-link>
@@ -10,10 +10,10 @@
     
       <nuxt-link to="/">
     <div class="tracking-tight">
-      <span class="text-xl lg:text-4xl md:text-2xl  font-bold text-black ">
+      <span class="text-2xl lg:text-4xl md:text-2xl  font-bold text-black ">
         The Honest 
       </span>
-      <span class="text-xl lg:text-4xl md:text-2xl  text-black ">
+      <span class="text-2xl lg:text-4xl md:text-2xl  text-black ">
         Painting Co.
       </span>     
       </div>
@@ -29,8 +29,8 @@
       </button>
   </div>
     </div>
-    <nav :class="isOpen ? 'block': 'hidden' " class="text-gray-200 px-2 pt-2 pb-4 sm:flex sm:p-0">
-       <router-link to="/" class="block px-2 py-1 font-medium text-gray-500 hover:text-red-600 focus:outline-none focus:text-red-600 transition duration-150 ease-in-out">Home</router-link>
+    <nav :class="isOpen ? 'block': 'hidden' " class="text-gray-200 px-6 pt-2 pb-4 sm:flex sm:p-0">
+       <router-link to="/" class="block px-2 py-1 font-medium text-gray-500 hover:text-red-600 hover:bg-gray-200 rounded-lg focus:outline-none focus:text-red-600 transition duration-150 ease-in-out">Home</router-link>
       <!-- <router-link to="/about" disabled class="mt-1 block px-2 py-1 font-medium text-gray-500 hover:text-red-600 focus:outline-none focus:text-red-600 transition duration-150 ease-in-out sm:mt-0 sm:ml-2">About</router-link> -->
     </nav>
 

@@ -1,7 +1,7 @@
 <template>
 <div class="text-center mt-3">
  <p class="text-center text-gray-500 text-xs mt-12">
-            &copy;{{new Date().getFullYear()}} The Honest Painting CO. All rights reserved.
+            &copy;{{new Date().getFullYear()}} The Honest Painting Co. All rights reserved.
  </p>
  <div class="flex items-center pt-5 justify-between lg:justify-center">
       <a href="https://www.instagram.com/thehonestpaintingco/" target="_blank" class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full" src="../assets/images/insta.svg" alt="" style="max-height: 60px;"></a>
