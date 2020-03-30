@@ -1,8 +1,5 @@
 <template>
-<div>
-<Nav/>
-
-  <!-- <div class="py-12 bg-white">
+   <div class="py-12 bg-gray-100 justify-betweem">
   <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mt-10">
       <ul class="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
@@ -17,8 +14,8 @@
             </div>
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">Competitive rates</h5>
-              <p class="mt-2 text-base leading-6 text-gray-500">
-                 The Honest Painting CO offers painting services at an honest and competitive rate to Geelong and the surrounding suburbs to  Melbourne.
+              <p class="mt-2 text-base leading-6 text-gray-600">
+                 The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.
               </p>
             </div>
           </div>
@@ -33,8 +30,8 @@
               </div>
             </div>
             <div class="ml-4">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">No hidden fees</h5>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+              <h5 class="text-lg leading-6 font-medium text-gray-900">Free Quotes</h5>
+              <p class="mt-2 text-base leading-6 text-gray-600">
                Call or message us today for your FREE quote. 
               </p>
             </div>
@@ -51,7 +48,7 @@
             </div>
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">You are important to us</h5>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+              <p class="mt-2 text-base leading-6 text-gray-600">
                 You can expect excellence in everything we do.
               </p>
             </div>
@@ -61,13 +58,13 @@
           <div class="flex">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white">
-               <img class="w-6 h-6 text-white " src="../../assets/images/phone.png" alt="">
+               <img class="w-6 h-6 text-white " src="../assets/images/phone.png" alt="">
               </div>
             </div>
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">Contact Us Today</h5>
               <a href="tel:+61451223787" >
-              <p class="mt-2 text-base leading-6 hover:text-blue-500 text-gray-500">
+              <p class="mt-2 text-base leading-6 hover:text-blue-500 text-gray-600">
                +61 451  223 787
               </p>
               </a>
@@ -77,19 +74,5 @@
       </ul>
     </div>
   </div>
-</div> -->
-<hr>
-<Footer/>
 </div>
 </template>
-
-<script>
-import Nav from '~/components/Nav.vue'
-import Footer from '~/components/Footer.vue'
-export default {
-  components:{
-    Nav,
-    Footer
-  }
-}
-</script>

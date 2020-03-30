@@ -7,10 +7,18 @@
       <img src="../assets/images/thehonestpaintingco.png" alt="">
       </nuxt-link>
     </div>
-      <nuxt-link to="/">
-    <div class="text-xl lg:text-4xl text-red-600 sm:p-0">The Honest Painting CO.</div>
     
+      <nuxt-link to="/">
+    <div class="tracking-tight">
+      <span class="text-xl lg:text-4xl md:text-2xl  font-bold text-black ">
+        The Honest 
+      </span>
+      <span class="text-xl lg:text-4xl md:text-2xl  text-black ">
+        Painting Co.
+      </span>     
+      </div>
       </nuxt-link>
+
     <div class="sm:hidden">
       <button @click="isOpen = !isOpen" type="button" class="text-gray-500 hover:text-red-600 focus:outline-none block">
         <svg class="w-6 h-6 w-4 fill-current" viewBox="0 0 24 24">
@@ -23,7 +31,7 @@
     </div>
     <nav :class="isOpen ? 'block': 'hidden' " class="text-gray-200 px-2 pt-2 pb-4 sm:flex sm:p-0">
        <router-link to="/" class="block px-2 py-1 font-medium text-gray-500 hover:text-red-600 focus:outline-none focus:text-red-600 transition duration-150 ease-in-out">Home</router-link>
-      <router-link to="/about" class="mt-1 block px-2 py-1 font-medium text-gray-500 hover:text-red-600 focus:outline-none focus:text-red-600 transition duration-150 ease-in-out sm:mt-0 sm:ml-2">About</router-link>
+      <!-- <router-link to="/about" disabled class="mt-1 block px-2 py-1 font-medium text-gray-500 hover:text-red-600 focus:outline-none focus:text-red-600 transition duration-150 ease-in-out sm:mt-0 sm:ml-2">About</router-link> -->
     </nav>
 
 

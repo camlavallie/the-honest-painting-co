@@ -9,7 +9,15 @@
      <div class="">
          <JumboHomeTwo/>
      </div>
+      <div class="mt-12 mb-24">
+       <JumboHomeThree/>
+      </div>
      <div class="mt-12">
+       <div class="text-center mb-24">
+         <div>
+       <h5 class="text-6xl leading-6 font-medium text-gray-300">Featured Gallery</h5>
+         </div>
+       </div>
          <Carousel/>
      </div>
      <div class="">
@@ -22,6 +30,7 @@
 import Nav from '~/components/Nav.vue'
 import JumboHome from '~/components/JumboHome.vue'
 import JumboHomeTwo from '~/components/JumboHomeTwo.vue'
+import JumboHomeThree from '~/components/JumboHomeThree.vue'
 import Carousel from '~/components/Carousel.vue'
 import Footer from '~/components/Footer.vue'
 
@@ -30,6 +39,7 @@ export default {
   components: {
     Nav,
     JumboHomeTwo,
+    JumboHomeThree,
     JumboHome,
     Footer,
     Carousel,
