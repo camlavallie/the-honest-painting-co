@@ -52,6 +52,14 @@ import Footer from '~/components/Footer.vue'
 
 
 export default {
+  head () {
+    return {
+      title: 'The Honest Painting Co.',
+      meta: [
+        { hid: 'description', name: 'description', content: 'The Honest Painting Co. Geelong, Residential Painting, Commercial Painting, Painter'}
+      ]
+    }
+  },
   components: {
     Nav,
     JumboHomeTwo,
