@@ -56,7 +56,8 @@ export default {
     return {
       title: 'The Honest Painting Co.',
       meta: [
-        { hid: 'description', name: 'description', content: 'The Honest Painting Co. Geelong, Residential Painting, Commercial Painting, Painter'}
+        { name: 'description', 
+        content: 'The Honest Painting Co. Geelong, Victoria Australia', keywords: 'geelong, victoria, australia, commercial, painting, residential, painting, painter, painting, the honest painting co'}
       ]
     }
   },

@@ -12,7 +12,17 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'The Honest Painting Co.' || 'Geelong' || 'Commercial Painting' || 'Residential Painting' || 'Painter' || ' Painting'}
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'The Honest',
+        keywords: 'the, honest, co, geelong, victoria, australia, commercial, painting, residential, painting, painter, painting'
+      },
+           {
+             hid: 'keywords',
+             name: 'keywords',
+             content: 'the, honest, co, geelong, victoria, australia, commercial, painting, residential, painting, painter, painting'
+           }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
