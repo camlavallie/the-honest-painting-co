@@ -1,17 +1,5 @@
 <template>
   <div>
-    <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162282246-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162282246-1');
-</script>
-
-    </head>
     <Nav/>
       <div class="">
        <JumboHome/>
@@ -32,9 +20,6 @@
        </div>
          <Carousel/>
      </div>
-      <div class="mt-12 mb-24">
-       <InstaFeed />
-      </div>
      <div class="">
          <Footer />
      </div>
@@ -47,27 +32,16 @@ import JumboHome from '~/components/JumboHome.vue'
 import JumboHomeTwo from '~/components/JumboHomeTwo.vue'
 import JumboHomeThree from '~/components/JumboHomeThree.vue'
 import Carousel from '~/components/Carousel.vue'
-// import InstaFeed from '~/components/InstaFeed.vue'
 import Footer from '~/components/Footer.vue'
 
 
-export default {
-  head () {
-    return {
-      title: 'The Honest Painting Co.',
-      meta: [
-        { hid: 'description', 
-          name: 'description', 
-          content: 'The Honest Painting Co. Geelong, Victoria Australia', keywords: 'geelong, victoria, australia, commercial, painting, residential, painting, painter, painting, the honest painting co'}
-      ]
-    }
-  },
+
+  export default {
   components: {
     Nav,
     JumboHomeTwo,
     JumboHomeThree,
     JumboHome,
-    // InstaFeed,
     Footer,
     Carousel,
   }

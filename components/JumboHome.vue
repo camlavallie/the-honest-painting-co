@@ -28,3 +28,21 @@
   </div>
 </div>
 </template>
+
+
+
+
+
+
+<script>
+export default {
+   head () {
+      return {
+        title: 'The Honest Painting Co.',
+      meta: [
+        { hid: 'description', name: 'description', content: 'We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.' }
+      ]
+    }
+  },
+}
+</script>

@@ -76,3 +76,19 @@
   </div>
 </div>
 </template>
+
+
+
+
+<script>
+export default {
+   head () {
+      return {
+        title: 'The Honest Painting Co.',
+      meta: [
+        { hid: 'description', name: 'description', content: 'The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.' }
+      ]
+    }
+  },
+}
+</script>

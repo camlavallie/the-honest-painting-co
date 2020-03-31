@@ -15,14 +15,22 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'The Honest',
-        keywords: 'the, honest, co, geelong, victoria, australia, commercial, painting, residential, painting, painter, painting'
+        content: 'The Honest Painting Co.',
       },
-           {
-             hid: 'keywords',
-             name: 'keywords',
-             content: 'the, honest, co, geelong, victoria, australia, commercial, painting, residential, painting, painter, painting'
-           }
+      {
+        name: 'keywords',
+        keywords: 'the honest painting co, geelong, victoria, australia, commercial, residential, painting, painter'
+           },
+            {
+              hid: 'description',
+              name: 'description',
+              content: 'We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.'
+            },
+              {
+                hid: 'description',
+                name: 'description',
+                content: 'The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.'
+              }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -53,10 +61,16 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    // '@nuxtjs/google-analytics'
   ],
   /*
   ** Build configuration
   */
+//  googleAnalytics: {
+//    id: UA-162282246-1,
+//    dev: false
+//  },
+
   build: {
     /*
     ** You can extend webpack config here
