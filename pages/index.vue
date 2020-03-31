@@ -20,6 +20,9 @@
        </div>
          <Carousel/>
      </div>
+      <div class="mt-12 mb-24">
+       <InstaFeed />
+      </div>
      <div class="">
          <Footer />
      </div>
@@ -32,6 +35,7 @@ import JumboHome from '~/components/JumboHome.vue'
 import JumboHomeTwo from '~/components/JumboHomeTwo.vue'
 import JumboHomeThree from '~/components/JumboHomeThree.vue'
 import Carousel from '~/components/Carousel.vue'
+// import InstaFeed from '~/components/InstaFeed.vue'
 import Footer from '~/components/Footer.vue'
 
 
@@ -41,6 +45,7 @@ export default {
     JumboHomeTwo,
     JumboHomeThree,
     JumboHome,
+    // InstaFeed,
     Footer,
     Carousel,
   }
