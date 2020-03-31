@@ -15,7 +15,7 @@
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">Competitive rates</h5>
               <p class="mt-2 text-base leading-6 text-gray-600">
-                 The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.
+                {{this.title1}}
               </p>
             </div>
           </div>
@@ -32,7 +32,7 @@
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">Free Quotes</h5>
               <p class="mt-2 text-base leading-6 text-gray-600">
-               Call or message us today for your FREE quote. 
+               {{this.title2}}
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@
             <div class="ml-4">
               <h5 class="text-lg leading-6 font-medium text-gray-900">You are important to us</h5>
               <p class="mt-2 text-base leading-6 text-gray-600">
-                You can expect excellence in everything we do.
+                {{this.title3}}
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@
               <h5 class="text-lg leading-6 font-medium text-gray-900">Contact Us Today</h5>
               <a href="tel:+61451223787" >
               <p class="mt-2 text-base leading-6 hover:text-blue-500 text-gray-600">
-               +61 451  223 787
+                {{this.title4}}
               </p>
               </a>
             </div>
@@ -80,11 +80,23 @@
 
 
 
+
 <script>
 export default {
+   data () {
+    return {
+      title1: ' The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.',
+      title2: 'Call or message us today for your FREE quote.',
+      title3: 'You can expect excellence in everything we do.',
+      title4: '+61 451  223 787',
+    }
+  },
    head () {
       return {
-        title: 'The Honest Painting Co.',
+        title1: this.title1,
+        title2: this.title2,
+        title3: this.title3,
+        title3: this.title4,
       meta: [
         { hid: 'description', name: 'description', content: 'The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.' }
       ]

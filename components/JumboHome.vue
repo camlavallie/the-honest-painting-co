@@ -6,14 +6,16 @@
   <div class="max-w-screen-xl mx-auto py-12 px-3 sm:px-6  lg:mr-12 lg:flex text-center">
     <div class="lg:ml-12">
       <span class="text-3xl lg:text-5xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-      Honest and excellent work.
+      {{this.title1}}
       </span>
       <br />
-      <span class="text-red-600 text-3xl lg:text-5xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10"> All the time.</span>
+      <span class="text-red-600 text-3xl lg:text-5xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+      {{this.title2}}
+      </span>
       <br/>
       <div class="lg:px-32 md:px-24 ">
        <p class="tracking-tight text-gray-600 text-2xl mt-3">
-        We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.
+      {{this.title3}}
       </p>
       </div>
     </div>
@@ -36,9 +38,18 @@
 
 <script>
 export default {
+   data () {
+    return {
+      title1: 'Honest and excellent work.',
+      title2: 'All the time.',
+      title3: 'We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.',
+    }
+  },
    head () {
       return {
-        title: 'The Honest Painting Co.',
+        title1: this.title1,
+        title2: this.title2,
+        title3: this.title3,
       meta: [
         { hid: 'description', name: 'description', content: 'We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.' }
       ]
