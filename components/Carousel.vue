@@ -26,7 +26,7 @@
     </p>
   </div>
   <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Professional Painting</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#painter</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
@@ -107,7 +107,7 @@ export default {
         title: 'The Honest Painting Co.',
       meta: [
         { hid: 'description', name: 'description', content: 'We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.' },
-        { hid: 'keywords', name: 'keywords', content: 'The Honest Painting Co, Painters Geelong, Painters victoria, Painters australia, commercial, residential, painting, apartments, office spaces, decks, porches, painter, houses, offices,' },
+        { hid: 'keywords', name: 'keywords', content: 'The Honest Painting Co, Painters Geelong, Painters victoria, Painters australia, commercial, residential, painting, apartments, office spaces, decks, porches, painter, houses, offices.' },
       ]
     }
   },
