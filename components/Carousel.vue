@@ -106,7 +106,7 @@ export default {
       return {
         title: 'The Honest Painting Co.',
       meta: [
-        { hid: 'description', name: 'description', content: 'We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.' },
+        { hid: 'description', name: 'description', content: 'The Honest Painting Co offers excellent painting for Geelong and the surround area. We specialise in interior and exterior painting, either commercial or domestic. You can be sure to get competitive painting prices done with excellence.' },
         { hid: 'keywords', name: 'keywords', content: 'The Honest Painting Co, Painters Geelong, Painters victoria, Painters australia, commercial, residential, painting, apartments, office spaces, decks, porches, painter, houses, offices.' },
         {name: 'google-site-verification', content: 'rLGhLaaIm4DjBdDzsKpMSP22d_LiO_uyAsZ85wV49Jg' },
       ]
