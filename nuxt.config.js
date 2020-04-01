@@ -15,28 +15,14 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'The Honest Painting Co.',
+        content: 'The Honest Painting Co. offers services to Geelong and surrounding areas. We paint partments, houses, offices, retail spaces, whatever the need we are the painters for you. Call for a FREE quote.',
       },
       {
         hid: 'keywords',
         name: 'keywords',
-        keywords: 'the honest painting co, geelong, victoria, australia, commercial, residential, painting, painter'
-           },
-      {
-        hid: 'keywords',
-        name: 'keywords',
-        keywords: 'We specialize in both internal and external painting for residential and commercial needs. When we do the job, you can trust us to do it right.'
-           },
-            {
-              hid: 'description',
-              name: 'description',
-              content: 'The Honest Painting Co. offers services to Geelong and surrounding areas.'
-            },
-              {
-                hid: 'description',
-                name: 'description',
-                content: 'The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.'
-              },
+        keywords: 'The Honest Painting Co, Painters Geelong, Painters victoria, Painters australia, commercial, residential, painting, apartments, office spaces, decks, porches, painter, houses, offices, ',
+        content: 'The Honest Painting Co, Painters Geelong, Painters victoria, Painters australia, commercial, residential, painting, apartments, office spaces, decks, porches, painter, houses, offices'
+           }
               
     ],
     link: [

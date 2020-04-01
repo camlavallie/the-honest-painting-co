@@ -98,7 +98,8 @@ export default {
         title3: this.title3,
         title3: this.title4,
       meta: [
-        { hid: 'description', name: 'description', content: 'The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.' }
+        { hid: 'description', name: 'description', content: 'The Honest Painting Co strives to offer painting services at a competitive price for Geelong and the surrounding area.' },
+        
       ]
     }
   },
