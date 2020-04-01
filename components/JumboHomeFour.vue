@@ -5,7 +5,7 @@
         <p class="font-bold text-sm uppercase">{{this.title1}}</p>
         <p class="text-3xl font-bold">{{this.title2}}</p>
         <p class="text-2xl mb-10 leading-none">{{this.title3}}</p>
-        <a href="#" class="bg-red-600 py-4 px-8 text-white shadow-md font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
+        <a href="#anchor-name" class="bg-red-600 py-4 px-8 text-white shadow-md font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
         </div>  
     </div>
   </div>
@@ -16,7 +16,6 @@
     background-image: url('../assets/images/beach4.jpg')
   }
 </style>
-
 
 
 <script>
