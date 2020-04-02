@@ -1,7 +1,7 @@
 <template>
 <div class="flex flex-wrap justify justify-center">
 
-  <div class="max-w-sm rounded overflow-hidden shadow-lg m-3">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
   <img src="../assets/images/house5.jpg" alt="Sunset in the mountains">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Need a Painter?</div>
@@ -17,12 +17,12 @@
   </div>
 </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3">
+<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
   <img src="../assets/images/house2.jpg" alt="Sunset in the mountains">
    <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Geelong, Australia</div>
     <p class="text-gray-700 text-base">
-    We can make those kitchen cabinets shine!
+    Need some fresh paint to make that kitchen pop? We've got you!
     </p>
   </div>
   <div class="px-6 py-4">
@@ -33,7 +33,7 @@
   </div>
 </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3">
+<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
   <img src="../assets/images/house4.jpg" alt="Sunset in the mountains">
    <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">The Honest Painting Co.</div>
@@ -49,7 +49,7 @@
   </div>
 </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3">
+<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
   <img src="../assets/images/0-1.jpg" alt="Sunset in the mountains">
    <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Australia Painting</div>
@@ -65,7 +65,7 @@
   </div>
 </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3">
+<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
   <img src="../assets/images/reddoor.jpg" alt="Sunset in the mountains">
    <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">#thehonestpaintingco</div>
@@ -81,7 +81,7 @@
   </div>
 </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3">
+<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
   <img src="../assets/images/0-2.jpg" alt="Sunset in the mountains">
    <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Painters you can trust.</div>

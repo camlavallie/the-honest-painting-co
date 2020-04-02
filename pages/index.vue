@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="toppage">
     <Nav/>
       <div class="">
        <JumboHome/>
@@ -9,7 +9,7 @@
        <JumboHomeFour/>
       </div>
 
-      <div class="mt-12"></div>
+      <div class="mt-16"></div>
      <div class="">
          <JumboHomeTwo/>
      </div>
@@ -24,7 +24,21 @@
        </div>
          <Carousel/>
      </div>
-     <div class="">
+     <div class="m-12 justify-center text-center flex flex-wrap m-3">
+         <div>
+         <a href="#contact" class="inline-flex items-center px-5 py-3 mr-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:shadow-outline ">
+        <img class="w-6 h-6 text-white m-1" src="../assets/images/arrowup.png" alt="">
+        Contact Us!
+        </a>
+         </div>
+        <div>
+         <a href="#toppage" class="inline-flex items-center px-5 py-3 ml-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:shadow-outline ">
+        <img class="w-6 h-6 text-white m-1" src="../assets/images/arrowup.png" alt="">
+        </a>
+        </div>
+     </div>
+
+     <div>
          <Footer />
      </div>
   </div>
