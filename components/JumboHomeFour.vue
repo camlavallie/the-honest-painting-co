@@ -33,7 +33,7 @@ export default {
         title2: this.title2,
         title3: this.title3,
       meta: [
-        { hid: 'description', name: 'description', content: 'The Honest Painting Co offers excellent painting for Geelong and the surround area. We specialise in interior and exterior painting, either commercial or domestic. You can be sure to get competitive painting prices done with excellence.' }
+        { hid: 'description', name: 'description', content: 'The Honest Painting Co offers excellent painting for Geelong and the surrounding area. We specialize in interior and exterior painting, either commercial or domestic. You can be sure to get competitive painting prices done with excellence.' }
       ]
     }
   },
