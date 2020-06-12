@@ -35,7 +35,9 @@
         </a>
          </div>
      </div>
-
+    <div>
+      <Galla />
+    </div>
      <div>
          <Footer />
      </div>
@@ -51,6 +53,7 @@ import JumboHomeThree from '~/components/JumboHomeThree.vue'
 import JumboHomeFour from '~/components/JumboHomeFour.vue'
 import Carousel from '~/components/Carousel.vue'
 import Footer from '~/components/Footer.vue'
+import Galla from '~/components/Galla.vue'
 
 
 
@@ -76,6 +79,7 @@ import Footer from '~/components/Footer.vue'
     JumboHomeFour,
     Footer,
     Carousel,
+    Galla
   }
 }
 </script>
