@@ -10,10 +10,10 @@
     </p>
   </div>
   <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#painter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painters</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Victoria Painters</span>
   </div>
 </div>
 
@@ -26,7 +26,7 @@
     </p>
   </div>
   <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#painter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painter</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
@@ -42,7 +42,7 @@
     </p>
   </div>
   <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#painter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
@@ -52,16 +52,16 @@
 <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
   <img src="../assets/images/0-1.jpg" alt="Sunset in the mountains">
    <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Australia Painting</div>
+    <div class="font-bold text-xl mb-2">Melbourne Painting</div>
     <p class="text-gray-700 text-base">
       Painting with excellence.
     </p>
   </div>
   <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#painter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">painting contractor</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Melbourne Painters</span>
   </div>
 </div>
 
@@ -74,10 +74,10 @@
     </p>
   </div>
   <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#painter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">painting service</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700">Geelong, VIC Painters</span>
   </div>
 </div>
 
@@ -87,10 +87,10 @@
     <div class="font-bold text-xl mb-2">Painters you can trust.</div>
   </div>
   <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#painter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700">Geelong painting contractor</span>
   </div>
 </div>
 
