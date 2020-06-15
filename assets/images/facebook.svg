@@ -1,33 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'MyriadPro-Regular';}
-	.st1{font-size:12px;}
-	.st2{fill:none;stroke:#000000;stroke-width:20;stroke-miterlimit:10;}
-	.st3{stroke:#000000;stroke-width:20;stroke-miterlimit:10;}
-	.st4{font-family:'BrushScriptMT';}
-	.st5{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:23;stroke-miterlimit:10;}
-	.st6{font-family:'NasalizationRg-Regular';}
-	.st7{font-size:716.4169px;}
-	.st8{font-size:186.8819px;}
-</style>
-<g>
-	<path d="M-2032.2-923c43.4,0,84.3,17,115.2,48c30.9,30.9,48,71.8,48,115.2v282.7c0,43.4-17,84.3-48,115.2
-		c-30.9,30.9-71.8,48-115.2,48h-282.7c-43.4,0-84.3-17-115.2-48c-30.9-30.9-48-71.8-48-115.2v-282.7c0-43.4,17-84.3,48-115.2
-		c30.9-30.9,71.8-48,115.2-48H-2032.2 M-2032.2-963h-282.7c-111.7,0-203.2,91.4-203.2,203.2v282.7c0,111.7,91.4,203.2,203.2,203.2
-		h282.7c111.7,0,203.2-91.4,203.2-203.2v-282.7C-1829-871.6-1920.4-963-2032.2-963L-2032.2-963z"/>
-</g>
-<text transform="matrix(1 0 0 1 1738.2227 376.1113)" class="st0 st1">v</text>
-<circle class="st2" cx="-2172.5" cy="-619.5" r="165.5"/>
-<circle class="st3" cx="-1975.5" cy="-814.5" r="38.5"/>
-<text transform="matrix(1 0 0 1 -1632.001 -532.7441)" style="font-family:'Coniferous-Regular'; font-size:255.2352px;"> nstagram</text>
-<text transform="matrix(1 0 0 1 -1713.001 -532.7441)" class="st4" style="font-size:255.2352px;">I</text>
-<text transform="matrix(1 0 0 1 1682.667 540)" class="st4 st1">t</text>
-<text transform="matrix(1 0 0 1 -1780.1729 -752.8491)" class="st4" style="font-size:204.9849px;">Follow Us On</text>
-<circle cx="365.5" cy="534.5" r="354.5"/>
-<text transform="matrix(1 0 0 1 299.5552 899.9951)" class="st5 st6 st7">f</text>
-<rect x="539.7" y="496.8" transform="matrix(0.9885 0.1515 -0.1515 0.9885 95.6299 -80.5109)" width="73" height="181"/>
-<text transform="matrix(1 0 0 1 784 587.0244)" class="st6 st8">Facebook</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+	<g>
+		<path d="M241.871,256.001 C249.673,256.001 256,249.675 256,241.872 L256,14.129 C256,6.325 249.673,0 241.871,0 L14.129,0 C6.324,0 0,6.325 0,14.129 L0,241.872 C0,249.675 6.324,256.001 14.129,256.001 L241.871,256.001" fill="#395185"></path>
+		<path d="M176.635,256.001 L176.635,156.864 L209.912,156.864 L214.894,118.229 L176.635,118.229 L176.635,93.561 C176.635,82.375 179.742,74.752 195.783,74.752 L216.242,74.743 L216.242,40.188 C212.702,39.717 200.558,38.665 186.43,38.665 C156.932,38.665 136.738,56.67 136.738,89.736 L136.738,118.229 L103.376,118.229 L103.376,156.864 L136.738,156.864 L136.738,256.001 L176.635,256.001" fill="#FFFFFF"></path>
+	</g>
 </svg>

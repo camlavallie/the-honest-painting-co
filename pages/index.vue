@@ -19,25 +19,21 @@
       <div class="mt-12 mb-24">
        <JumboHomeThree/>
       </div>
+
+
      <div class="mt-12">
        <div class="text-center mb-24">
          <div>
-       <h5 class="text-6xl leading-6 font-medium text-gray-300">Gallery</h5>
+       <h5 class="text-6xl leading-6 font-thin text-gray-300">Gallery</h5>
          </div>
        </div>
          <Carousel/>
      </div>
-     <div class="m-12 justify-center text-center flex flex-wrap m-3">
-         <div>
-         <a href="#contact" class="sticky flex text-left bg-opacity-25 top-0 left-0 trasnparent-25 inline-flex items-center px-5 py-3 mr-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:shadow-outline ">
-        <img class="w-6 h-6 text-white m-1" src="../assets/images/arrowup.png" alt="">
-        Contact Us!
-        </a>
-         </div>
-     </div>
+    
     <div>
       <Galla />
     </div>
+  
      <div>
          <Footer />
      </div>
@@ -54,6 +50,7 @@ import JumboHomeFour from '~/components/JumboHomeFour.vue'
 import Carousel from '~/components/Carousel.vue'
 import Footer from '~/components/Footer.vue'
 import Galla from '~/components/Galla.vue'
+
 
 
 
@@ -79,7 +76,8 @@ import Galla from '~/components/Galla.vue'
     JumboHomeFour,
     Footer,
     Carousel,
-    Galla
+    Galla,
+ 
   }
 }
 </script>
