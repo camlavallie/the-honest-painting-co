@@ -1,5 +1,15 @@
 <template>
   <div>
+    <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ57KDL3NE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZ57KDL3NE');
+</script>
+    </head>
     <nuxt />
   </div>
 </template>
