@@ -1,6 +1,6 @@
 <template>
   <div>
-    <head>
+    <!-- <head>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ57KDL3NE"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -8,8 +8,8 @@
   gtag('js', new Date());
 
   gtag('config', 'G-VZ57KDL3NE');
-</script>
-    </head>
+</script> -->
+    <!-- </head> -->
     <nuxt />
   </div>
 </template>
