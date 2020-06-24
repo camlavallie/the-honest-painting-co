@@ -88,6 +88,13 @@ import Galla from '~/components/Galla.vue'
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+body {
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;

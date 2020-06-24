@@ -26,12 +26,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-body {
 
-padding: 0px;
-margin: 0px;
-overflow-x: hidden;
-}
 *,
 *:before,
 *:after {
