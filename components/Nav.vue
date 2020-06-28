@@ -3,12 +3,12 @@
   <header class="block bg-white sm:flex sm:items-center ">
   <div class="flex items-center ">
     <div class="lg:w-48 md:w-32 w-24">
-      <nuxt-link to="/">
+      
       <img src="../assets/images/thehonestpaintingco.png" alt="">
-      </nuxt-link>
+   
     </div>
     
-      <nuxt-link to="/">
+   
     <div class="tracking-tight  ">
       <span class="text-2xl tracking-tight lg:text-6xl md:text-5xl  font-bold text-black ">
         The Honest 
@@ -17,7 +17,7 @@
         Painting Co.
       </span>     
       </div>
-      </nuxt-link>
+  
 
     <!-- <div class="sm:hidden">
       <button @click="isOpen = !isOpen" type="button" class="text-gray-500 hover:text-red-600 focus:outline-none block">
