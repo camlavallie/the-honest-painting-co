@@ -48,6 +48,10 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+      // {
+      //   src: '~/plugins/lingallery',
+      //   ssr: false
+      // }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -55,6 +59,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    
   ],
   /*
   ** Nuxt.js modules
