@@ -1,13 +1,15 @@
 <template>
   <div>
-    <nuxt />
+    <Nav/>
+    <nuxt/>
+    <Footer/>
   </div>
 </template>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -16,14 +18,13 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   padding: 0px;
-margin: 0px;
-overflow-x: hidden;
+  margin: 0px;
+  overflow-x: hidden;
 }
 body {
-
-padding: 0px;
-margin: 0px;
-overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
 }
 *,
 *:before,
@@ -61,3 +62,15 @@ overflow-x: hidden;
   background-color: #35495e;
 }
 </style>
+
+
+<script>
+import Nav from "~/components/Nav";
+import Footer from "~/components/Footer";
+export default {
+  components: {
+    Nav,
+    Footer
+  }
+};
+</script>

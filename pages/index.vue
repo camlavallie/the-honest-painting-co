@@ -1,6 +1,5 @@
 <template>
   <div id="top-page">
-    <Nav/>
     <div class>
       <JumboHome/>
     </div>
@@ -29,21 +28,17 @@
     <div class="mt-12">
       <JumboButton/>
     </div>
-    <div>
-      <Footer/>
-    </div>
+    <div></div>
   </div>
 </template>
 
 <script>
-import Nav from "~/components/Nav.vue";
 import JumboHome from "~/components/JumboHome.vue";
 import JumboButton from "~/components/JumboButton.vue";
 import JumboHomeTwo from "~/components/JumboHomeTwo.vue";
 import JumboHomeThree from "~/components/JumboHomeThree.vue";
 import JumboHomeFour from "~/components/JumboHomeFour.vue";
 import Carousel from "~/components/Carousel.vue";
-import Footer from "~/components/Footer.vue";
 
 export default {
   head() {
@@ -61,13 +56,12 @@ export default {
     };
   },
   components: {
-    Nav,
     JumboHome,
     JumboButton,
     JumboHomeTwo,
     JumboHomeThree,
     JumboHomeFour,
-    Footer,
+
     Carousel
   }
 };
