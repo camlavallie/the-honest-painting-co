@@ -25,11 +25,11 @@
       </div>
       <Carousel/>
     </div>
-    <div class="mt-12">
-      <JumboButton/>
-    </div>
     <div>
       <Gallery/>
+    </div>
+    <div class="mt-12">
+      <JumboButton/>
     </div>
   </div>
 </template>
