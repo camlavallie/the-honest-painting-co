@@ -26,7 +26,7 @@
       <Carousel/>
     </div>
     <div>
-      <Gallery/>
+      <!-- <Gallery/> -->
     </div>
     <div class="mt-12">
       <JumboButton/>
@@ -41,7 +41,7 @@ import JumboHomeTwo from "~/components/JumboHomeTwo.vue";
 import JumboHomeThree from "~/components/JumboHomeThree.vue";
 import JumboHomeFour from "~/components/JumboHomeFour.vue";
 import Carousel from "~/components/Carousel.vue";
-import Gallery from "~/components/Gallery.vue";
+// import Gallery from "~/components/Gallery.vue";
 
 export default {
   head() {
@@ -64,7 +64,7 @@ export default {
     JumboHomeTwo,
     JumboHomeThree,
     JumboHomeFour,
-    Gallery,
+    // Gallery,
     Carousel
   }
 };
