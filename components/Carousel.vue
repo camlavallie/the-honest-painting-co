@@ -1,100 +1,138 @@
 <template>
-<div class="flex flex-wrap justify justify-center">
+  <div class="flex flex-wrap justify justify-center">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
+      <img src="../assets/images/house5.jpg" alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Need a Painter?</div>
+        <p class="text-gray-700 text-base">Contact us today for all your painting needs!</p>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Painters</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Residential Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+        >Commercial Paint</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
+        >Black Hills Painters</span>
+      </div>
+    </div>
 
-  <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-  <img src="../assets/images/house5.jpg" alt="Sunset in the mountains">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Need a Painter?</div>
-    <p class="text-gray-700 text-base">
-      Contact us today for all your painting needs!
-    </p>
-  </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painters</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Victoria Painters</span>
-  </div>
-</div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
+      <img src="../assets/images/house2.jpg" alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Now in Black Hills, South Dakota</div>
+        <p
+          class="text-gray-700 text-base"
+        >Need some fresh paint to make that kitchen pop? We've got you!</p>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Painter</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Residential Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+        >Commercial Paint</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
+        >Black Hills Painters</span>
+      </div>
+    </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-  <img src="../assets/images/house2.jpg" alt="Sunset in the mountains">
-   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Geelong, Australia</div>
-    <p class="text-gray-700 text-base">
-    Need some fresh paint to make that kitchen pop? We've got you!
-    </p>
-  </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painter</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
-  </div>
-</div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
+      <img src="../assets/images/house4.jpg" alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">The Honest Painting Co.</div>
+        <p class="text-gray-700 text-base">Here for the Black Hills and surrounding areas.</p>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Residential Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+        >Commercial Paint</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
+        >Black Hills, South Dakota</span>
+      </div>
+    </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-  <img src="../assets/images/house4.jpg" alt="Sunset in the mountains">
-   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Honest Painting Co.</div>
-    <p class="text-gray-700 text-base">
-      Here for Geelong and surrounding areas.
-    </p>
-  </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Geelong Painters</span>
-  </div>
-</div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
+      <img src="../assets/images/0-1.jpg" alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Melbourne Painting</div>
+        <p class="text-gray-700 text-base">Painting with excellence.</p>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >painting contractor</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Residential Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+        >Commercial Paint</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
+        >Melbourne Painters</span>
+      </div>
+    </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-  <img src="../assets/images/0-1.jpg" alt="Sunset in the mountains">
-   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Melbourne Painting</div>
-    <p class="text-gray-700 text-base">
-      Painting with excellence.
-    </p>
-  </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">painting contractor</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700">Melbourne Painters</span>
-  </div>
-</div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
+      <img src="../assets/images/reddoor.jpg" alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">#thehonestpaintingco</div>
+        <p class="text-gray-700 text-base">Whatever your painting needs we can do it!</p>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >painting service</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Residential Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+        >Commercial Paint</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700"
+        >Black Hills, South Dakota Painters</span>
+      </div>
+    </div>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-  <img src="../assets/images/reddoor.jpg" alt="Sunset in the mountains">
-   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">#thehonestpaintingco</div>
-    <p class="text-gray-700 text-base">
-      Whatever your painting needs we can do it!
-    </p>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
+      <img src="../assets/images/0-2.jpg" alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Painters you can trust.</div>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >Residential Painting</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+        >Commercial Paint</span>
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700"
+        >Black Hills painting contractor</span>
+      </div>
+    </div>
   </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">painting service</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700">Geelong, VIC Painters</span>
-  </div>
-</div>
-
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-  <img src="../assets/images/0-2.jpg" alt="Sunset in the mountains">
-   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Painters you can trust.</div>
-  </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Residential Painting</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Commercial Paint</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700">Geelong painting contractor</span>
-  </div>
-</div>
-
-</div>
 </template>
 
 
@@ -102,15 +140,28 @@
 
 <script>
 export default {
-   head () {
-      return {
-        title: 'The Honest Painting Co.',
+  head() {
+    return {
+      title: "The Honest Painting Co.",
       meta: [
-        { hid: 'description', name: 'description', content: 'Geelong, Victoria Australia Painters. The Honest Painting Co offers excellent painting for Geelong and the surrounding area. We specialise in interior and exterior painting, either commercial or domestic. You can be sure to get competitive painting prices done with excellence.' },
-        { hid: 'keywords', name: 'keywords', content: 'Geelong, Victoria Australia Painters. The Honest Painting Co, Painters Geelong, Painters victoria, Painters australia, commercial, residential, painting, apartments, office spaces, decks, porches, painter, houses, offices.' },
-        {name: 'google-site-verification', content: 'rLGhLaaIm4DjBdDzsKpMSP22d_LiO_uyAsZ85wV49Jg' },
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Black Hills, South Dakota. The Honest Painting Co offers excellent painting for Black Hills and the surrounding area. We specialise in interior and exterior painting, either commercial or domestic. You can be sure to get competitive painting prices done with excellence."
+        },
+        {
+          hid: "keywords",
+          name: "keywords",
+          content:
+            "Black Hills, South Dakota. The Honest Painting Co, Painters Black Hills, Painters Black Hills, commercial, residential, painting, apartments, office spaces, decks, porches, painter, houses, offices."
+        },
+        {
+          name: "google-site-verification",
+          content: "rLGhLaaIm4DjBdDzsKpMSP22d_LiO_uyAsZ85wV49Jg"
+        }
       ]
-    }
-  },
-}
+    };
+  }
+};
 </script>
