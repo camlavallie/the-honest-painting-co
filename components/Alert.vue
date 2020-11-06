@@ -38,6 +38,15 @@
                 <span class="mx-auto">Instagram</span>
               </a>
             </div>
+            <div class="m-3">
+              <a
+                href="#contact"
+                title="Quicktoolz On Pinterest"
+                class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-red-600 hover:border-red-600 hover:bg-red-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+              >
+                <span class="mx-auto">Contact</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
