@@ -17,7 +17,7 @@
           <nuxt-link class="ml-3 hover:text-blue-500" to="/">Home</nuxt-link>
         </p>
       </div>
-      <div class="flex pt-1 justify-center">
+      <!-- <div class="flex pt-1 justify-center">
         <a
           href="https://www.instagram.com/thehonestpaintingco/"
           target="_blank"
@@ -32,7 +32,7 @@
         >
           <img class="w-full" src="~/assets/images/facebook.svg" alt style="max-height: 60px;">
         </a>
-      </div>
+      </div>-->
     </div>
   </footer>
 </template>
