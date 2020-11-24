@@ -1,5 +1,8 @@
 <template>
-  <header id="top-page" class="blue-bg sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+  <header
+    id="top-page"
+    class="blue-bg sm:flex items-center sm:justify-between md:items-center lg:items-center sm:items-center sm:px-4 sm:py-3"
+  >
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
         <div class="flex items-center">
@@ -37,7 +40,9 @@
       </div>
     </div>
     <nav @click="isOpen = !isOpen" :class="isOpen ? 'block' : 'hidden'" class="sm:block">
-      <div class="px-2 pt-2 pb-4 sm:flex sm:p-0">
+      <div
+        class="sm:flex items-center sm:justify-between md:items-center lg:items-center sm:items-center sm:px-4 sm:py-3"
+      >
         <nuxt-link
           to="/#residential"
           class="mt-1 block px-2 py-1 text-black font-semibold rounded hover:font-bold sm:mt-0 sm:ml-2"
