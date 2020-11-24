@@ -21,13 +21,20 @@
     <div class="mt-12">
       <div class="text-center mb-24">
         <div>
-          <h5 class="text-6xl leading-6 font-thin text-gray-300">Gallery</h5>
+          <h5 class="text-6xl leading-6 font-thin text-gray-600" id="residential">Residential Work</h5>
         </div>
       </div>
       <Carousel/>
     </div>
 
-    <div class="mt-12">
+    <div class="mt-24">
+      <div>
+        <h5
+          class="text-center text-6xl leading-6 font-thin text-gray-600"
+          id="commercial"
+        >Commercial Work</h5>
+      </div>
+      <Gallery/>
       <JumboButton/>
     </div>
   </div>
@@ -41,7 +48,7 @@ import JumboHomeTwo from "~/components/JumboHomeTwo.vue";
 import JumboHomeThree from "~/components/JumboHomeThree.vue";
 import JumboHomeFour from "~/components/JumboHomeFour.vue";
 import Carousel from "~/components/Carousel.vue";
-// import Gallery from "~/components/Gallery.vue";
+import Gallery from "~/components/Gallery.vue";
 
 export default {
   head() {
@@ -65,7 +72,8 @@ export default {
     JumboHomeThree,
     JumboHomeFour,
     Alert,
-    Carousel
+    Carousel,
+    Gallery
   }
 };
 </script>
