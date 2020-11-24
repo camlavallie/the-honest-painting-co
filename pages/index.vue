@@ -1,5 +1,5 @@
 <template>
-  <div id="top-page">
+  <div>
     <div>
       <Alert/>
       <JumboHome/>
@@ -21,7 +21,7 @@
     <div class="mt-12">
       <div class="text-center mb-24">
         <div>
-          <h5 class="text-6xl leading-6 font-thin text-gray-600" id="residential">Residential Work</h5>
+          <h5 class="text-6xl leading-6 font-thin text-gray-600" id="residential">Residential</h5>
         </div>
       </div>
       <Carousel/>
@@ -32,7 +32,7 @@
         <h5
           class="text-center text-6xl leading-6 font-thin text-gray-600"
           id="commercial"
-        >Commercial Work</h5>
+        >Commercial</h5>
       </div>
       <Gallery/>
       <JumboButton/>
