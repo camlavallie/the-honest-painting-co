@@ -5,18 +5,20 @@
   >
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
-        <div class="flex items-center">
-          <div class="lg:w-48 md:w-32 w-24">
-            <img src="../assets/images/thehonestpaintingco.png" alt>
-          </div>
+        <nuxt-link to="/" class="hover:no-underline">
+          <div class="flex items-center">
+            <div class="lg:w-48 md:w-32 w-24">
+              <img src="../assets/images/thehonestpaintingco.png" alt>
+            </div>
 
-          <div class="tracking-tight">
-            <span
-              class="text-1xl tracking-tight lg:text-5xl md:text-3xl font-bold text-black"
-            >The Honest</span>
-            <span class="text-1xl lg:text-5xl tracking-tight md:text-3xl text-black">Painting Co.</span>
+            <div class="tracking-tight">
+              <span
+                class="text-1xl tracking-tight lg:text-5xl md:text-3xl font-bold text-black"
+              >The Honest</span>
+              <span class="text-1xl lg:text-5xl tracking-tight md:text-3xl text-black">Painting Co.</span>
+            </div>
           </div>
-        </div>
+        </nuxt-link>
       </div>
       <div class="sm:hidden">
         <button
@@ -45,12 +47,12 @@
       >
         <nuxt-link
           to="/#residential"
-          class="mt-1 block px-2 py-1 text-black font-semibold rounded hover:font-bold sm:mt-0 sm:ml-2"
+          class="mt-1 block px-2 py-1 text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:no-underline hover:text-red-600"
         >Residential</nuxt-link>
 
         <nuxt-link
           to="/#commercial"
-          class="mt-1 block px-2 py-1 text-black font-semibold rounded hover:font-bold sm:mt-0 sm:ml-2"
+          class="mt-1 block px-2 py-1 hover:no-underline text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:text-red-600"
         >Commercial</nuxt-link>
       </div>
     </nav>
