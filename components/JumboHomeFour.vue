@@ -27,8 +27,7 @@ export default {
     return {
       title1: "How Can We Help?",
       title2: "Our Services",
-      title3:
-        "All interior and exterior painting.  New builds or repaints. Plaster repairs."
+      title3: "All interior and exterior painting.  New builds and repaints."
     };
   },
   head() {
