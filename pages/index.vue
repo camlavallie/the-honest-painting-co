@@ -35,6 +35,7 @@
         >Commercial</h5>
       </div>
       <Gallery/>
+      <GalleryTwo/>
       <JumboButton/>
     </div>
   </div>
@@ -49,6 +50,7 @@ import JumboHomeThree from "~/components/JumboHomeThree.vue";
 import JumboHomeFour from "~/components/JumboHomeFour.vue";
 import Carousel from "~/components/Carousel.vue";
 import Gallery from "~/components/Gallery.vue";
+import GalleryTwo from "~/components/GalleryTwo.vue";
 
 export default {
   head() {
@@ -73,7 +75,8 @@ export default {
     JumboHomeFour,
     Alert,
     Carousel,
-    Gallery
+    Gallery,
+    GalleryTwo
   }
 };
 </script>
