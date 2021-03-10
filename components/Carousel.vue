@@ -70,7 +70,7 @@
 
     <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
       <img
-        src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/101550826_1880857105383160_8984505231664480256_o.jpg?_nc_cat=108&ccb=2&_nc_sid=a26aad&_nc_ohc=Gfc_1KyJq4MAX-2P6di&_nc_ht=scontent-dfw5-2.xx&oh=b910b51a911a392c7eb1eb358e439dc2&oe=6013C1BE"
+        src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/117388758_1950652278403642_1238981664536182053_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=a26aad&_nc_ohc=rg91aIsiLMQAX__Z7bz&_nc_ht=scontent-dfw5-2.xx&oh=cd656576e169ed25cf6d6623ff305117&oe=606CEA04"
         alt="Sunset in the mountains"
       >
       <div class="px-6 py-4">
