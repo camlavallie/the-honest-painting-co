@@ -69,10 +69,7 @@
     </div>
 
     <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-      <img
-        src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/117388758_1950652278403642_1238981664536182053_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=a26aad&_nc_ohc=rg91aIsiLMQAX__Z7bz&_nc_ht=scontent-dfw5-2.xx&oh=cd656576e169ed25cf6d6623ff305117&oe=606CEA04"
-        alt="Sunset in the mountains"
-      >
+      <img src="~/assets/images/new1.jpg" alt="Sunset in the mountains">
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Black Hills Painting</div>
         <p class="text-gray-700 text-base">Painting with excellence.</p>
