@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="row justify-content-center mt-6">
+    <div class="row justify-content-center mt-12 p-3">
       <div v-for="image in images" :key="image.id">
         <div class="flex flex-wrap m-3">
           <a :href="image.pic" data-toggle="lightbox" data-gallery="example-gallery" class="w-64">
-            <img :src="image.pic" class="img-fluid">
+            <img :src="image.pic" class="img-fluid" alt="The Honest Painting Co Commercial Paining">
           </a>
         </div>
       </div>

@@ -1,138 +1,29 @@
 <template>
-  <div class="flex flex-wrap justify justify-center">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-      <img src="../assets/images/house5.jpg" alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Need a Painter?</div>
-        <p class="text-gray-700 text-base">Contact us today for all your painting needs!</p>
-      </div>
-      <div class="px-6 py-4">
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Painters</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Residential Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-        >Commercial Paint</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
-        >Black Hills Painters</span>
-      </div>
-    </div>
 
-    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-      <img src="../assets/images/house2.jpg" alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Now in Black Hills, South Dakota</div>
-        <p
-          class="text-gray-700 text-base"
-        >Need some fresh paint to make that kitchen pop? We've got you!</p>
-      </div>
-      <div class="px-6 py-4">
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Painter</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Residential Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-        >Commercial Paint</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
-        >Black Hills Painters</span>
-      </div>
+   <div>
+<!-- component -->
+  <div class="flex flex-wrap justify-center">
+<div v-for="card in cards" :key="card.id">
+    <div class=" p-4 max-w-sm m-3 ">
+        <div class="bg-white shadow-2xl rounded-lg mb-6 tracking-wide " >
+            <div class="md:flex-shrink-0 ">
+                <img :src="card.pic" alt="The Honest Painting Co Residential Painting" class="w-full h-64 rounded-lg rounded-b-none">
+            </div>
+            <div class="px-4 py-2 mt-2">
+                <p class="font-bold text-lg text-gray-800 tracking-normal">{{card.header}}</p>
+                    <p class="text-sm text-gray-700 px-2 mr-1">
+                        {{card.info}}
+                    </p>
+                   
+              
+            </div>
+        </div>
     </div>
-
-    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-      <img src="../assets/images/house4.jpg" alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">The Honest Painting Co.</div>
-        <p class="text-gray-700 text-base">Here for the Black Hills and surrounding areas.</p>
-      </div>
-      <div class="px-6 py-4">
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Residential Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-        >Commercial Paint</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
-        >Black Hills, South Dakota</span>
-      </div>
-    </div>
-
-    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-      <img src="~/assets/images/new1.jpg" alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Black Hills Painting</div>
-        <p class="text-gray-700 text-base">Painting with excellence.</p>
-      </div>
-      <div class="px-6 py-4">
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >painting contractor</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Residential Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-        >Commercial Paint</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 text-sm font-semibold text-gray-700"
-        >Black Hills Painters</span>
-      </div>
-    </div>
-
-    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-      <img src="../assets/images/reddoor.jpg" alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">#thehonestpaintingco</div>
-        <p class="text-gray-700 text-base">Whatever your painting needs we can do it!</p>
-      </div>
-      <div class="px-6 py-4">
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >painting service</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Residential Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-        >Commercial Paint</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700"
-        >Black Hills, South Dakota Painters</span>
-      </div>
-    </div>
-
-    <div class="max-w-sm rounded overflow-hidden shadow-lg m-3 mb-12">
-      <img src="../assets/images/0-2.jpg" alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Painters you can trust.</div>
-      </div>
-      <div class="px-6 py-4">
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-        >Residential Painting</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-        >Commercial Paint</span>
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 ml-2 my-3 text-sm font-semibold text-gray-700"
-        >Black Hills painting contractor</span>
-      </div>
     </div>
   </div>
+</div>
+
+
 </template>
 
 
@@ -140,6 +31,18 @@
 
 <script>
 export default {
+  data() {
+    return {
+      cards: [
+        {id:1, pic: require("~/assets/images/house5.jpg"), header:'Need a Painter?', info:'Contact us today for all your painting needs!'},
+        {id:2, pic: require("~/assets/images/house2.jpg"), header:'Now in Black Hills, South Dakota', info:'Need some fresh paint to make that kitchen pop?'},
+        {id:3, pic: require("~/assets/images/house4.jpg"), header:'The Honest Painting Co', info:'Here for the Black Hills and surrounding areas.'},
+        {id:4, pic: require("~/assets/images/res1.jpg"), header:'Servicing The Black Hills', info:'Painting done with excellence!'},
+        {id:5, pic: require("~/assets/images/res2.jpg"), header:'Residential Painters?', info:'YOU can trust The Honest Painting Co'},
+        {id:6, pic: require("~/assets/images/reddoor2.jpg"), header:'Whatever Your Painting Needs...', info:'We\'ve got YOU covered'},
+      ]
+    }
+  },
   head() {
     return {
       title: "The Honest Painting Co.",
@@ -160,7 +63,7 @@ export default {
           name: "google-site-verification",
           content: "rLGhLaaIm4DjBdDzsKpMSP22d_LiO_uyAsZ85wV49Jg"
         }
-      ]
+      ],
     };
   }
 };
