@@ -1,5 +1,6 @@
 <template lang="">
   <div>
+
     <header id="up" class="bg-center bg-fixed bg-no-repeat bg-center bg-cover h-screen relative">
 		<!-- Overlay Background + Center Control -->
 		<div class="h-screen bg-opacity-50 bg-black flex items-center justify-center" style="background:rgba(0,0,0,0.5);">
@@ -21,9 +22,16 @@
 </template>
 
 <style scoped>
+@media only screen and (min-width:640px) {
 #up{
   background-image: url('https://images.pexels.com/photos/5049/forest-trees-fog-foggy.jpg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
+}
+#up{
+  background-image: url('https://images.pexels.com/photos/5049/forest-trees-fog-foggy.jpg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+
+
 </style>
 
 
