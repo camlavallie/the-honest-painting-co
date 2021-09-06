@@ -1,10 +1,10 @@
 <template lang="">
   <div>
 
-    <header id="up" class="sm:bg-center sm:bg-fixed sm:bg-no-repeat sm:bg-center sm:bg-cover h-screen relative">
+    <header id="up" class="sm:bg-center sm:bg-fixed sm:bg-no-repeat sm:bg-center sm:bg-cover h-1/2  md:h-screen relative">
 		<!-- Overlay Background + Center Control -->
-		<div class="h-screen bg-opacity-50 bg-black flex items-center justify-center" style="background:rgba(0,0,0,0.5);">
-			<div class="mx-2 text-center">
+		<div class="h-1/2  md:h-screen bg-opacity-50 bg-black flex items-center justify-center" style="background:rgba(0,0,0,0.5);">
+			<div class="mx-2 my-12 text-center">
 				<h1 class="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl">
 					<span class="text-white">Honestly</span> Painting 
            </h1>
