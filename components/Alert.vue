@@ -1,55 +1,31 @@
-<template>
+<template lang="">
   <div>
-    <!-- component -->
-    <div class="flex items-center justify-center bg-gray-200">
-      <div class="container">
-        <div class="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
-          <div class="text-center">
-            <h2
-              class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
-            >
-              We've
-              <span class="text-red-600">Moved</span>
-            </h2>
-            <!-- <h3 class="text-xl md:text-3xl mt-10"></h3> -->
-            <p
-              class="text-md md:text-xl mt-10"
-            >The Honest Painting Co is now offering services to Custer, Rapid City and the surrounding Black Hills area of South Dakota.</p>
-          </div>
-          <div class="flex flex-wrap mt-10 justify-center">
-            <div class="m-3">
-              <a
-                href="https://www.facebook.com/thehonestpaintingco/"
-                target="_blank"
-                title="Quicktoolz On Facebook"
-                class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
-              >
-                <span class="mx-auto">Facebook</span>
-              </a>
-            </div>
-
-            <div class="m-3">
-              <a
-                href="https://www.instagram.com/thehonestpaintingco/"
-                target="_blank"
-                title="Quicktoolz On Pinterest"
-                class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-red-600 hover:border-red-600 hover:bg-red-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
-              >
-                <span class="mx-auto">Instagram</span>
-              </a>
-            </div>
-            <div class="m-3">
-              <a
-                href="#contact"
-                title="Quicktoolz On Pinterest"
-                class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-red-600 hover:border-red-600 hover:bg-red-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
-              >
-                <span class="mx-auto">Contact</span>
-              </a>
-            </div>
-          </div>
+    <header id="up" class="bg-center bg-fixed bg-no-repeat bg-center bg-cover h-screen relative">
+		<!-- Overlay Background + Center Control -->
+		<div class="h-screen bg-opacity-50 bg-black flex items-center justify-center" style="background:rgba(0,0,0,0.5);">
+			<div class="mx-2 text-center">
+				<h1 class="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl">
+					<span class="text-white">Honestly</span> Painting 
+           </h1>
+           <h2 class="text-gray-200 font-extrabold text-3xl xs:text-4xl md:text-5xl leading-tight">
+            The Greater <span class="text-white">Black</span> Hills <span class="text-white">Area</span> & Beyond
+           </h2>
+           <div class="inline-flex">
+           <a  href="#contact" class="p-2 my-5 mx-2 bg-red-700 hover:bg-red-800 font-bold text-white rounded border-2 border-transparent hover:border-red-800 shadow-md transition duration-500 md:text-xl no-underline">Hire Us!</a>
+           <a href="#residential"><button class="p-2 my-5 mx-2 bg-transparent border-2 bg-red-700 bg-opacity-75 hover:bg-opacity-100 border-white rounded hover:border-red-500 font-bold text-white shadow-md transition duration-500 md:text-lg">See Our Work</button></a>
+           </div>
         </div>
-      </div>
     </div>
+</header>
   </div>
 </template>
+
+<style scoped>
+#up{
+  background-image: url('https://images.pexels.com/photos/5049/forest-trees-fog-foggy.jpg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+</style>
+
+
+
+
