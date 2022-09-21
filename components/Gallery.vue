@@ -7,6 +7,7 @@
             <img :src="image.pic" class="img-fluid" alt="The Honest Painting Co Commercial Paining">
           </a>
         </div>
+        
       </div>
     </div>
   </div>

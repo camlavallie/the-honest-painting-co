@@ -7,15 +7,15 @@
       <div>
         <nuxt-link to="/" class="hover:no-underline">
           <div class="flex items-center">
-            <div class="lg:w-48 md:w-32 w-24">
+            <div class="lg:w-48 md:w-24 w-16">
               <img src="../assets/images/thehonestpaintingco.png" alt>
             </div>
 
             <div class="tracking-tight">
               <span
-                class="text-1xl tracking-tight lg:text-5xl md:text-3xl font-bold text-black"
+                class="text-1xl tracking-tight lg:text-4xl md:text-1xl font-bold text-black"
               >The Honest</span>
-              <span class="text-1xl lg:text-5xl tracking-tight md:text-3xl text-black">Painting Co.</span>
+              <span class="text-xl lg:text-4xl tracking-tight md:text-1xl text-black">Painting Co.</span>
             </div>
           </div>
         </nuxt-link>
@@ -47,13 +47,24 @@
       >
         <nuxt-link
           to="/#residential"
-          class="mt-1 block px-2 py-1 text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:no-underline hover:text-red-600"
+          class="mt-1 block px-2 py-1 text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:no-underline hover:text-red-600 text-sm md:font-xl"
         >Residential</nuxt-link>
 
         <nuxt-link
           to="/#commercial"
-          class="mt-1 block px-2 py-1 hover:no-underline text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:text-red-600"
+          class="mt-1 block px-2 py-1 hover:no-underline text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:text-red-600 text-sm md:font-xl "
         >Commercial</nuxt-link>
+        <a
+          href="https://www.facebook.com/thehonestpaintingco"
+          target="_blank"
+          class="mt-1 block px-2 py-1 hover:no-underline text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:text-red-600"
+        ><img src="~assets/images/facebook.svg" alt="facebook" class="w-4 h-4 md:w-5 md:h-5"></a>
+        <a
+          href="https://www.instagram.com/thehonestpaintingco/"
+          target="_blank"
+          class="mt-1 block px-2 py-1 hover:no-underline text-black font-thin rounded hover:font-bold sm:mt-0 sm:ml-2 hover:text-red-600"
+        ><img src="~assets/images/instagram-icon.svg" alt="instagram" class="w-4 h-4 md:w-6 md:h-6 hover:text-slate-200"></a>
+
       </div>
     </nav>
   </header>
@@ -61,7 +72,9 @@
 
 <script>
 export default {
-  components: {},
+  components: {
+  
+  },
   data() {
     return {
       isOpen: false
