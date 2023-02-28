@@ -36,6 +36,7 @@
       </div>
       <Gallery/>
       <GalleryTwo/>
+      <InstaFeed />
       <JumboButton/>
     </div>
   </div>
@@ -51,6 +52,7 @@ import JumboHomeFour from "~/components/JumboHomeFour.vue";
 import Carousel from "~/components/Carousel.vue";
 import Gallery from "~/components/Gallery.vue";
 import GalleryTwo from "~/components/GalleryTwo.vue";
+import InstaFeed from "~/components/InstaFeed.vue";
 
 export default {
   head() {
@@ -75,7 +77,8 @@ export default {
     Alert,
     Carousel,
     Gallery,
-    GalleryTwo
+    GalleryTwo,
+    InstaFeed
   }
 };
 </script>

@@ -43,6 +43,7 @@
         alt
       >
     </div>
+    
   </div>
 </template>
 
